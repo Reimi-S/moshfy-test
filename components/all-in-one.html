@@ -1,6 +1,7 @@
-<header>
+<body>
+  <header>
     <nav class="nav collapsible">
-      <a class="nav__brand" href="/"><img src="images/logo.svg" alt= ></a>
+      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
       <svg class="icon icon--white nav__toggler">
         <use xlink:href="images/sprite.svg#menu"></use>
       </svg>
@@ -10,19 +11,20 @@
         <li class="nav__item"><a href="#">Domain</a></li>
         <li class="nav__item"><a href="#">Pricing</a></li>
       </ul>
-      <script src="main.js"></script>
     </nav>
   </header>
-  <section class="block block--dark block--skews-left hero">
+  <section class="block block--dark block--skewed-left hero">
     <div class="container grid grid--1x2">
       <header class="block__header hero__content">
-        <h1 class="block__heading">Cloud Hosting for Pros</h1>
+        <h1 data-aos="fade-right" class="block__heading">
+          Cloud Hosting for Pros
+        </h1>
         <p class="hero__tagline">
           Deploy your websites in less than 60 seconds.
         </p>
-        <a href="" class="btn btn--accent btn--long">Get Started</a>
+        <a href class="btn btn--accent btn--long">Get Started</a>
       </header>
-      <picture>
+      <picture data-aos="zoom-in">
         <source
           type="image/webp"
           srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -35,7 +37,7 @@
       </picture>
     </div>
   </section>
-  <section class="block container block-domain">
+  <section data-aos="fade-up" class="block container block-domain">
     <header class="block__header">
       <h2>Stariting at $9 per month</h2>
       <p>
@@ -45,7 +47,12 @@
     </header>
     <div class="input-group">
       <input type="text" class="input" placeholder="Enter domain name here" />
-      <button class="btn btn--accent">Search</button>
+      <button class="btn btn--accent">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#search"></use>
+        </svg>
+        Search
+      </button>
     </div>
     <ul class="list block-domain__prices">
       <li><span class="badge badge--secondary">.com $9</span></li>
@@ -56,8 +63,7 @@
       <li>.xyz $10</li>
     </ul>
   </section>
-  <script src="js/main.js"></script>
-  <section class="block container block-plans">
+  <section data-aos="fade-up" class="block container block-plans">
     <div class="grid grid--1x3">
       <div class="plan">
         <div class="card card--secondary">
@@ -125,12 +131,11 @@
     <header class="block__header">
       <h2>Host on the Cloud to Keep Growing</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-        aliquid.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid.
       </p>
     </header>
     <article class="grid grid--1x2 feature">
-      <div class="feature__content">
+      <div class="feature__content" data-aos="fade-right">
         <span class="icon-container">
           <svg class="icon icon--primary">
             <use xlink:href="images/sprite.svg#growth"></use>
@@ -139,12 +144,12 @@
         <h3 class="feature__heading">Super Easy to Use</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          beatae aliquid repudiandae magni voluptas aperiam sint eveniet
-          ratione quos sunt?
+          beatae aliquid repudiandae magni voluptas aperiam sint eveniet ratione
+          quos sunt?
         </p>
         <a href="#" class="link-arrow">Learn More</a>
       </div>
-      <picture>
+      <picture data-aos="zoom-in-left">
         <source
           type="image/webp"
           srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
@@ -166,8 +171,8 @@
         <h3 class="feature__heading">Simply Fast Websites</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          beatae aliquid repudiandae magni voluptas aperiam sint eveniet
-          ratione quos sunt?
+          beatae aliquid repudiandae magni voluptas aperiam sint eveniet ratione
+          quos sunt?
         </p>
         <a href="#" class="link-arrow">Learn More</a>
       </div>
@@ -193,8 +198,8 @@
         <h3 class="feature__heading">WordPress Made Easy</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          beatae aliquid repudiandae magni voluptas aperiam sint eveniet
-          ratione quos sunt?
+          beatae aliquid repudiandae magni voluptas aperiam sint eveniet ratione
+          quos sunt?
         </p>
         <a href="#" class="link-arrow">Learn More</a>
       </div>
@@ -220,8 +225,8 @@
         <h3 class="feature__heading">24/7 Expert Support</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          beatae aliquid repudiandae magni voluptas aperiam sint eveniet
-          ratione quos sunt?
+          beatae aliquid repudiandae magni voluptas aperiam sint eveniet ratione
+          quos sunt?
         </p>
         <a href="#" class="link-arrow">Learn More</a>
       </div>
@@ -243,7 +248,7 @@
       <h2>User-friendly Control Panel</h2>
     </header>
     <div class="container grid grid--1x2">
-      <picture class="block-showcase__image">
+      <picture data-aos="fade-right" class="block-showcase__image">
         <source
           type="images/webp"
           srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
@@ -254,7 +259,7 @@
         />
         <img src="images/ipad.png" alt= />
       </picture>
-      <ul class="list">
+      <ul class="list" data-aos="fade-up">
         <li>
           <div class="media">
             <div class="media__image">
@@ -306,22 +311,18 @@
       </ul>
     </div>
   </section>
-  <section class="block">
+  <section class="block" data-aos="zoom-in">
     <header class="block__header">
       <h2>What our Customers are Saying</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-        asperiores?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, asperiores?
       </p>
     </header>
     <div class="container">
       <div class="card testimonial">
         <div class="grid grid--1x2">
           <div class="testimonial__image">
-            <img
-              src="images/testimonial.jpg"
-              alt="A happy smiling customer"
-            />
+            <img src="images/testimonial.jpg" alt="A happy smiling customer" />
             <span class="icon-container icon-container--accent">
               <svg class="icon icon--white icon--small">
                 <use xlink:href="images/sprite.svg#quotes"></use>
@@ -383,7 +384,7 @@
       </section>
       <section class="collapsible footer__section">
         <header class="collapsible__header">
-          <h2 class="collapsible__heading footer__heading">Item 2</h2>
+          <h2 class="collapsible__heading footer__heading">Company</h2>
           <svg class="icon icon--white collapsible__chevron">
             <use xlink:href="images/sprite.svg#chevron"></use>
           </svg>
@@ -395,14 +396,32 @@
       </section>
       <section class="collapsible footer__section">
         <header class="collapsible__header">
-          <h2 class="collapsible__heading footer__heading">Item 3</h2>
+          <h2 class="collapsible__heading footer__heading">Support</h2>
           <svg class="icon icon--white collapsible__chevron">
             <use xlink:href="images/sprite.svg#chevron"></use>
           </svg>
         </header>
         <div class="collapsible__content">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-          pariatur.
+          <ul class="list">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Knowladge Base</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Domains</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Domain Checker</a></li>
+            <li><a href="#">Domain Transfer</a></li>
+            <li><a href="#">Free Domain</a></li>
+          </ul>
         </div>
       </section>
       <section class="footer__brand">
@@ -411,5 +430,9 @@
       </section>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
